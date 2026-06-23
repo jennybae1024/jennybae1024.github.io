@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hyunkyung Bae</title>
+<meta name="description" content="Hyunkyung Bae — AI Scientist · LLM training, post-training, and efficient inference. NYU Courant · formerly LG AI Research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1b1c20;
+    --soft:#5d616b;
+    --faint:#9094a0;
+    --line:#e7e6e0;
+    --accent:#0f6e66;
+    --bg:#fbfaf7;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .wrap{max-width:720px;margin:0 auto;padding:72px 28px 90px;}
+
+  header{margin-bottom:14px;}
+  h1{font-size:34px;font-weight:600;letter-spacing:-.01em;margin:0 0 6px;}
+  .role{color:var(--accent);font-weight:500;font-size:16px;}
+  .contact{
+    font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--soft);
+    margin-top:14px;display:flex;flex-wrap:wrap;gap:8px 16px;
+  }
+  .lead{color:var(--ink);margin:22px 0 0;}
+
+  section{margin-top:46px;}
+  h2{
+    font-family:"IBM Plex Mono",monospace;font-size:12.5px;font-weight:500;
+    text-transform:uppercase;letter-spacing:.14em;color:var(--accent);
+    margin:0 0 18px;padding-bottom:9px;border-bottom:1px solid var(--line);
+  }
+
+  .item{margin-bottom:26px;}
+  .item:last-child{margin-bottom:0;}
+  .item-head{display:flex;justify-content:space-between;gap:16px;align-items:baseline;flex-wrap:wrap;}
+  .item-head .t{font-weight:600;font-size:16.5px;}
+  .item-head .when{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--faint);white-space:nowrap;}
+  .item .sub{color:var(--accent);font-size:14.5px;margin-top:1px;}
+  .item ul{margin:10px 0 0;padding-left:20px;}
+  .item li{margin-bottom:6px;color:var(--soft);}
+  .item li b{color:var(--ink);font-weight:600;}
+  .proj-title{font-weight:600;margin:16px 0 0;font-size:15.5px;}
+  .proj-title .ln{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:400;margin-left:8px;}
+
+  .pub{padding:14px 0;border-bottom:1px solid var(--line);}
+  .pub:last-child{border-bottom:none;}
+  .pub .pt{font-weight:500;}
+  .pub .pt a{color:var(--ink);text-decoration:none;border-bottom:1px solid transparent;transition:color .15s,border-color .15s;}
+  .pub .pt a:hover{color:var(--accent);border-bottom-color:var(--accent);}
+  .pub .pt a .ext{font-size:11px;color:var(--faint);margin-left:5px;vertical-align:1px;}
+  .pub .pt a:hover .ext{color:var(--accent);}
+  .pub .meta{font-size:13.5px;color:var(--faint);margin-top:4px;}
+  .pub .me{color:var(--ink);font-weight:600;}
+  .pub .venue{color:var(--accent);font-family:"IBM Plex Mono",monospace;font-size:12.5px;}
+
+  .skills div{margin-bottom:12px;}
+  .skills .k{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--faint);text-transform:uppercase;letter-spacing:.06em;}
+  .skills .v{color:var(--soft);}
+
+  footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);
+    font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--faint);}
+
+  @media (max-width:560px){
+    .wrap{padding:52px 22px 70px;}
+    h1{font-size:28px;}
+    .item-head .when{width:100%;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Hyunkyung Bae</h1>
+    <div class="role">AI Scientist · LLM Training &amp; Inference</div>
+    <div class="contact">
+      <a href="https://www.linkedin.com/in/hyunkyung-bae/" data-replace="linkedin">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=e-HtQI4AAAAJ&hl=en" data-replace="scholar">Google Scholar</a>
+    </div>
+    <p class="lead">AI scientist working on large-scale LLM training and efficient inference. Currently at NYU's Courant Institute researching memory-efficient multimodal inference; previously 3+ years at LG AI Research building enterprise AI agents on in-house foundation models.</p>
+  </header>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="item">
+      <div class="item-head">
+        <div>
+          <span class="t">LG AI Research</span>
+          <div class="sub">NLP Researcher (LLM) · Seoul</div>
+        </div>
+        <span class="when">Mar 2022 — May 2025</span>
+      </div>
+
+      <div class="proj-title">ChatEXAONE — Enterprise AI Agent
+        <span class="ln"><a href="https://www.lgresearch.ai/blog/view?seq=458" data-replace="chatexaone-site">Website</a> · <a href="https://www.lgresearch.ai/data/upload/tech_report/en/Technical_report_ChatEXAONE.pdf" data-replace="chatexaone-report">Report</a></span>
+      </div>
+      <ul>
+        <li>Adapted in-house foundation models to document-heavy enterprise workflows via post-training and domain-specific data curation.</li>
+        <li>Trained <b>3B–30B+</b> models across multi-node GPU clusters with DeepSpeed ZeRO-2/3, SLURM, and data/model parallelism.</li>
+        <li>Extended long-context capability from <b>4K to 32K tokens</b> for long and multi-document workflows.</li>
+        <li>Designed evaluation-driven data refinement loops, turning failure cases into better synthetic and instruction-tuning data.</li>
+      </ul>
+
+      <div class="proj-title">Scientific Paper Conversational QA Agent</div>
+      <ul>
+        <li>Built the query-rewriting component, resolving ambiguous queries through context-aware reformulation.</li>
+        <li>Generated ~<b>100K</b> scientific-paper QA instances via a data-augmentation pipeline, contributing to Dialogizer (EMNLP 2023) and IterCQR (NAACL 2024).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+
+    <div class="pub">
+      <div class="pt"><a href="https://arxiv.org/abs/2604.16734" target="_blank" rel="noopener">Reducing Peak Memory Usage for Modern Multimodal Large Language Model Pipelines<span class="ext">↗</span></a></div>
+      <div class="meta"><span class="me">H. Bae</span>*, J. Kim* &nbsp;·&nbsp; <span class="venue">ACL Findings 2026</span></div>
+    </div>
+    <div class="pub">
+      <div class="pt"><a href="https://arxiv.org/abs/2502.04362" target="_blank" rel="noopener">LLMs Can Be Easily Confused by Instructional Distractions<span class="ext">↗</span></a></div>
+      <div class="meta">Y. Hwang, Y. Kim, J. Koo, T. Kang, <span class="me">H. Bae</span>, K. Jung &nbsp;·&nbsp; <span class="venue">ACL 2025</span></div>
+    </div>
+    <div class="pub">
+      <div class="pt"><a href="https://arxiv.org/abs/2410.19503" target="_blank" rel="noopener">SWITCH: Studying with Teacher for Knowledge Distillation of Large Language Models<span class="ext">↗</span></a></div>
+      <div class="meta">J. Koo, Y. Hwang, Y. Kim, T. Kang, <span class="me">H. Bae</span>, K. Jung &nbsp;·&nbsp; <span class="venue">NAACL Findings 2025</span></div>
+    </div>
+    <div class="pub">
+      <div class="pt"><a href="https://arxiv.org/abs/2311.09820" target="_blank" rel="noopener">IterCQR: Iterative Conversational Query Reformulation with Retrieval Guidance<span class="ext">↗</span></a></div>
+      <div class="meta">Y. Jang, K. Lee, <span class="me">H. Bae</span>, H. Lee, K. Jung &nbsp;·&nbsp; <span class="venue">NAACL 2024</span></div>
+    </div>
+    <div class="pub">
+      <div class="pt"><a href="https://arxiv.org/abs/2311.07589" target="_blank" rel="noopener">Dialogizer: Context-aware Conversational QA Dataset Generation from Textual Sources<span class="ext">↗</span></a></div>
+      <div class="meta">Y. Hwang*, Y. Kim*, <span class="me">H. Bae</span>, H. Lee, J. Bang, K. Jung &nbsp;·&nbsp; <span class="venue">EMNLP 2023</span></div>
+    </div>
+    <div class="pub">
+      <div class="pt"><a href="https://aclanthology.org/2023.findings-acl.249/" target="_blank" rel="noopener">Injecting Comparison Skills in Task-Oriented Dialogue Systems for Database Search Results Disambiguation<span class="ext">↗</span></a></div>
+      <div class="meta">Y. Kim*, Y. Hwang*, J. Shin, <span class="me">H. Bae</span>, K. Jung &nbsp;·&nbsp; <span class="venue">ACL Findings 2023</span></div>
+    </div>
+    <div class="pub">
+      <div class="pt">Relevance Similarity Scorer and Entity-Guided Reranking for Knowledge-Grounded Dialog Systems</div>
+      <div class="meta"><span class="me">H. Bae</span>, M. Lee, A. Kim, H. Lee, C. Lee, C. Park, D. Kim, K. Jung &nbsp;·&nbsp; <span class="venue">AAAI Workshop 2021</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="item">
+      <div class="item-head"><span class="t">New York University — M.S. Computer Science</span><span class="when">2025 — 2027</span></div>
+      <div class="sub">Courant Institute · GPA 3.61/4.0</div>
+    </div>
+    <div class="item">
+      <div class="item-head"><span class="t">Seoul National University — M.S. ECE</span><span class="when">2020 — 2022</span></div>
+      <div class="sub">Advisor: Kyomin Jung · GPA 3.55/4.3</div>
+    </div>
+    <div class="item">
+      <div class="item-head"><span class="t">POSTECH — B.S. Chemical Engineering</span><span class="when">2010 — 2015</span></div>
+      <div class="sub">GPA 3.80/4.3 · magna cum laude</div>
+    </div>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <div><span class="k">Training</span> <span class="v">— PyTorch, HF Transformers, DeepSpeed ZeRO-2/3, TRL, SLURM, distributed training, instruction tuning, preference optimization</span></div>
+    <div><span class="k">Inference &amp; Agents</span> <span class="v">— vLLM, TensorRT, LangChain, LangGraph, RAG, long-context modeling, document QA</span></div>
+    <div><span class="k">Data &amp; Eval</span> <span class="v">— synthetic data generation, domain data curation, query rewriting, model evaluation, failure-case analysis</span></div>
+    <div><span class="k">Programming</span> <span class="v">— Python, C++</span></div>
+  </section>
+
+  <footer>© <span id="yr"></span> Hyunkyung Bae</footer>
+
+</div>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
